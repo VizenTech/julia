@@ -331,10 +331,6 @@ typedef struct {
 
 typedef struct {
     JL_DATA_TYPE
-} jl_bottomtype_t;
-
-typedef struct {
-    JL_DATA_TYPE
     jl_value_t *a;
     jl_value_t *b;
 } jl_uniontype_t;
